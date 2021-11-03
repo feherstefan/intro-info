@@ -16,7 +16,7 @@ namespace ExempleOperatori
             bool isEven = number % 2 == 0;
 
             string message = isEven
-                ? $"Number {number} is not even"
+                ? $"Number {number} is even"
                 : $"Number {number} is odd";
 
             Console.WriteLine(message);
